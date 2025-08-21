@@ -1,0 +1,35 @@
+div[tid="EMBDfbW"]{background : #f2f2f2;
+th.cell.ng-scope.header.top:nth-of-type(2){background-color: #f2f2f2;
+  font-weight: bold; }
+
+th.cell.ng-scope.header.top:nth-of-type(3){background-color: #F9D0DA;
+   font-weight: bold;}
+th.cell.ng-scope.header.top:nth-of-type(4){background-color: #F9D0DA; 
+  font-weight: bold;}
+th.cell.ng-scope.header.top:nth-of-type(5){background-color: #F9D0DA;
+  font-weight: bold; }
+
+th.cell.ng-scope.header.top:nth-of-type(6){background-color: #FCEFD1; 
+  font-weight: bold;}
+th.cell.ng-scope.header.top:nth-of-type(7){background-color: #B7DBFF;
+  font-weight: bold; }
+
+}
+
+.qv-pt .cell .left-meta-headers .button-wrapper,.qv-pt .cell .top-meta-headers .button-wrapper {
+    display: none;
+}
+
+//Hiding the Multi KPI Object.
+    .qv-object-qlik-multi-kpi {
+        display: none;
+    }
+    .qv-mode-edit .qv-object-qlik-multi-kpi {
+        display: flex; /* Show in edit mode */
+    }
+
+//Changing Text Color and Font.
+& .value * {
+        color: blue !important;
+        font-family: 'Arial', sans-serif;
+    }
