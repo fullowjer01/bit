@@ -29,8 +29,9 @@ th.cell.ng-scope.header.top:nth-of-type(7){background-color: #B7DBFF;
     }
 
 //Changing Text Color and Font.
-& .qv-object * {
+.qv-media-tool-html {
         color: blue !important;
+      font-size:40px  !important ;
         font-family: 'Arial', sans-serif;
+    };
 
-    }
